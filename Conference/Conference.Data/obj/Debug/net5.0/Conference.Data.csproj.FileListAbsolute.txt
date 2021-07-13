@@ -4,6 +4,7 @@ C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Dat
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Data\bin\Debug\net5.0\Conference.Data.dll
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Data\bin\Debug\net5.0\ref\Conference.Data.dll
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Data\bin\Debug\net5.0\Conference.Data.pdb
+C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Data\obj\Debug\net5.0\Conference.Data.csproj.AssemblyReference.cache
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Data\obj\Debug\net5.0\Conference.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Data\obj\Debug\net5.0\Conference.Data.AssemblyInfoInputs.cache
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Data\obj\Debug\net5.0\Conference.Data.AssemblyInfo.cs

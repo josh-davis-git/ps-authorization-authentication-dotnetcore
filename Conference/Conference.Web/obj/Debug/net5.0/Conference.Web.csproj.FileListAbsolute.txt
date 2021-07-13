@@ -10,7 +10,6 @@ C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Web
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Web\bin\Debug\net5.0\Conference.Web.Views.dll
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Web\bin\Debug\net5.0\Conference.Web.Views.pdb
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Web\bin\Debug\net5.0\Humanizer.dll
-C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Google.dll
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Web\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Projects\ps-authorization-authentication-dotnetcore\Conference\Conference.Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll

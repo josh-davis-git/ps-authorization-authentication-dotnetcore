@@ -1,7 +1,6 @@
 using Conference.Data;
 using Conference.Data.Repositories;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -36,20 +35,15 @@ namespace Conference.Web
             // Authentication Schemas: each time you configure an authentication method
             // you must specify a name for the authentication scheme which servces as the lookup
             // string for the authentication methods configured.
-            services.AddAuthentication(o => {
+            services.AddAuthentication(o =>
+            {
                 o.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-              //  o.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
+                //  o.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
             })
                 // Authentication Schema = Means of Authentication
                 // Passport == Airport > Authenticated || Gym Membership == Gym Card > Authenticated
                 .AddCookie()
-                .AddCookie(ExternalAuthenticationDefaults.AuthenticationScheme)
-                .AddGoogle(o =>
-                {
-                    o.SignInScheme = ExternalAuthenticationDefaults.AuthenticationScheme;
-                    o.ClientId = Configuration["Google:ClientId"];
-                    o.ClientSecret = Configuration["Google:ClientSecret"];
-                });
+                .AddCookie(ExternalAuthenticationDefaults.AuthenticationScheme);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
