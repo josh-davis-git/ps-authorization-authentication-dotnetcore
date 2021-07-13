@@ -38,6 +38,7 @@ namespace ConfArch.Web.Controllers
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Name, user.Name),
                 new Claim(ClaimTypes.Role, user.Role),
+                new Claim("FavoriteColor", user.FavoriteColor)
             };
 
             var identity = new ClaimsIdentity(claims,

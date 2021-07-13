@@ -9,7 +9,7 @@ namespace Conference.Data.Repositories
     {
         private List<User> users = new List<User>
         {
-            new User { Id = 1, Name = "joshua", Password = "Password123!", Role = "Admin" }
+            new User { Id = 1, Name = "joshua", Password = "Password123!", FavoriteColor="Black", Role = "Admin" }
         };
 
         public User GetByUsernameAndPassword(string username, string password)

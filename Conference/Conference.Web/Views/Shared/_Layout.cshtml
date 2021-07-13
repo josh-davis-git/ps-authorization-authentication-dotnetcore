@@ -12,7 +12,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-2">
-            <img src="~/img/ConfArchSmall.png" style="max-width:100%" />
+            <img src="~/img/microsoft_conference.png" style="max-width:100%" />
         </div>
         <div class="col-md-6 titlecol">
             <span class="title">@ViewBag.Title</span>           
@@ -20,7 +20,7 @@
         <div class="col-md-4">
             @if (User.Identity.IsAuthenticated)
             {
-                <h3>Hi @User.Identity.Name!</h3>
+                <h3>Hi User (Claims Object) @User.Identity.Name!</h3>
                 <a asp-controller="Account" asp-action="Logout" class="btn btn-primary">Logout</a>
             }
             else
