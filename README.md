@@ -1,14 +1,14 @@
 # ps-authorization-authentication-dotnetcore
 ## Course work from Pluralsight's Authentication &amp; Authorization in ASP.NET Core By Robert Guijt
 ## General Overview of Content Covered:
-  ### Authentication
-  ### Utilization of Centralized Authentication
-  ### Applying Authorization
+  #### Authentication
+  #### Utilization of Centralized Authentication
+  #### Applying Authorization
 
 ## Granual Scope of Course
-### Claims-Based Authentication &amp; Authorization
-### Identity Cookie
-### ClaimsPrincipal
+#### Claims-Based Authentication &amp; Authorization
+#### Identity Cookie
+#### ClaimsPrincipal
 
 ## Different between Claims-based Authentication &amp; Authorization
 ### Authentication: go to hotel with reservation, ask for id, because they need to make sure you are who you see. Determine identity but need proof. 
