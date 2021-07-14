@@ -5,13 +5,13 @@ General Overview of Content Covered:
 > Utilization  of Centralized Authentication
 > Applying Authorization
 
-Granual Scope into the Course
+## Granual Scope into the Course
 >> claims-based authentication &amp; authorization
 >> identity cookie
 >> ClaimsPrincipal
 >> external identity providers
 
-Different between Claims-based Authentication &amp; Authorization
+## Different between Claims-based Authentication &amp; Authorization
 >> Authentication: go to hotel with reservation, ask for id, because they need to make sure you are who you see.
 >> determine identity but need proof. the hotel needs a passport, the application needs a password.
 >> Authorization: after the hotel confirms who are you, handed hotel key but not before certain claims are checked
@@ -20,7 +20,7 @@ Different between Claims-based Authentication &amp; Authorization
 >> Authorization determines: what actions a user can take and limits access accordingly.
 >> NOTE: Authorization requires Authentication FIRST
 
->> Identity Cookies
+## Identity Cookies
 >> tracks to which user a request belogns to
 >> safely stores user information
 >> symettric encryption, key only on server.
